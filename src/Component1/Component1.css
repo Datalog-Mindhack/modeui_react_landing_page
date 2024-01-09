@@ -1,0 +1,922 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Manrope:wght@300;400;600&display=swap');
+
+.component1{
+    width: 1200px;
+height: 280px;
+padding: 46px 40px 46px 40px;
+gap: 8px;
+}
+
+.component1-container{
+    width: 880px;
+height: 188px;
+padding: 0px 32px 0px 32px;
+gap: 8px;
+}
+
+.component1-row{
+    width: 816px;
+height: 188px;
+gap: 8px;
+}
+
+.component1-column{
+    display: flex;
+    width: 816px;
+height: 188px;
+gap: 16px;
+}
+
+.metric-box1{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box2{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box3{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box4{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box1-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.metric-box2-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.metric-box3-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.metric-box4-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.box1-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box2-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box3-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box4-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box1-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box2-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box3-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box4-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box1-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box2-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box3-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box4-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box1-content-content .box1-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box2-content-content .box2-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box3-content-content .box3-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box4-content-content .box4-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box1-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #121417;
+}
+
+.box2-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box3-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box4-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box1-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box2-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box3-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box4-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box1-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box2-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box3-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box4-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px){
+    .component1{
+    width: 1200px;
+height: 280px;
+padding: 46px 40px 46px 40px;
+gap: 8px;
+}
+
+.component1-container{
+    width: 880px;
+height: 188px;
+padding: 0px 32px 0px 32px;
+gap: 8px;
+}
+
+.component1-row{
+    width: 816px;
+height: 188px;
+gap: 8px;
+}
+
+.component1-column{
+    display: flex;
+    width: 816px;
+height: 188px;
+gap: 16px;
+}
+
+.metric-box1{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box2{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box3{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box4{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box1-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.metric-box2-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.metric-box3-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.metric-box4-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.box1-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box2-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box3-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box4-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box1-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box2-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box3-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box4-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box1-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box2-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box3-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box4-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box1-content-content .box1-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box2-content-content .box2-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box3-content-content .box3-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box4-content-content .box4-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box1-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #121417;
+}
+
+.box2-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box3-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box4-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box1-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box2-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box3-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box4-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box1-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box2-paratext text{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box3-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box4-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 375px){
+    .component1{
+    width: 1200px;
+height: 280px;
+padding: 46px 40px 46px 40px;
+gap: 8px;
+}
+
+.component1-container{
+    width: 880px;
+height: 188px;
+padding: 0px 32px 0px 32px;
+gap: 8px;
+}
+
+.component1-row{
+    width: 816px;
+height: 188px;
+gap: 8px;
+}
+
+.component1-column{
+    display: flex;
+    width: 816px;
+height: 188px;
+gap: 16px;
+}
+
+.metric-box1{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box2{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box3{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box4{
+    width: 280px;
+height: 188px;
+padding: 16px;
+gap: 4px;
+}
+
+.metric-box1-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.metric-box2-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.metric-box3-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.metric-box4-content{
+    width: 248px;
+height: 156px;
+gap: 8px;
+}
+
+.box1-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box2-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box3-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box4-number{
+    width: 248px;
+height: 56px;
+
+}
+
+.box1-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box2-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box3-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box4-number text{
+font-family: 'Manrope';
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #582066;
+
+}
+
+.box1-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box2-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box3-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box4-content-content{
+    width: 248px;
+height: 84px;
+gap: 8px;
+
+}
+
+.box1-content-content .box1-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box2-content-content .box2-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box3-content-content .box3-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box4-content-content .box4-title{
+    width: 248px;
+height: 20px;
+
+}
+
+.box1-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #121417;
+}
+
+.box2-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box3-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box4-title text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box1-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box2-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box3-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box4-paratext{
+    width: 248px;
+height: 56px;
+
+}
+
+.box1-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box2-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box3-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.box4-paratext text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+}
+

@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Manrope:wght@300;400;600&display=swap');
+
+.herosection-bg{
+    width: 1000px;
+    height: 532px;
+    align-items: center;
+    justify-content: center;
+       
+}
+
+.herosection{
+    width: 900px;
+    height: 604px;
+    top: -36px;
+    padding: 32px 80px 32px 3px;
+    gap: 8px;
+    text-align: center;
+}
+
+.container{
+    width: 980px;
+    height: 444px;
+    padding: 0px 32px 0px 32px;
+    gap: 8px;
+}
+
+.container-row{
+    width: 816px;
+    height: 444px;
+    gap: 8px;
+}
+
+.content{
+    width: 832px;
+    height: 444px;
+    gap: 32px;
+    background-image: url(/public/images/Mesh.png);
+}
+
+.content  .content1{
+    width: 832px;
+    height: 324px;
+    gap: 16px;
+}
+
+.content1 .subheading{
+    width: 832px;
+    height: 20px;
+}
+
+.content1 .subheading text{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #582066;
+}
+
+.content1 .content1heading{
+    width: 832px;
+    height: 288px;
+    gap: 16px;
+}
+
+.content1 .content1heading .title{
+    width: 832px;
+    height: 216px;
+
+}
+
+.content1heading .title text{
+    font-family: 'Manrope';
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.content1 .content1heading .paratext{
+    width: 848px;
+    height: 56px;
+} 
+
+.content1heading .paratext text{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.content .content2{
+    width: 832px;
+    height: 88px;
+    gap: 16px;
+}
+
+.content2 .action{
+    width: 832px;
+    height: 52px;
+    gap: 8px;
+}
+
+.action .base-button1{
+    width: 193px;
+    height: 52px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+    background-color: #582066;
+}
+
+.action .base-button1 .textcard{
+    width: 133px;
+    height: 20px;
+    background-color: #582066;
+}
+
+.action .base-button1 .textcard text{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.base-button1 .arrowright{
+    width: 20px;
+    height: 20px;
+    padding: 4.17px 4.17px 4.17px 4.17px;
+    cursor: pointer;
+}
+
+.base-button1 .arrowright img{
+    width: 11.67px;
+    height: 11.67px;
+    top: 4.17px;
+    left: 4.17px;
+    border: 2px;
+
+}
+
+.action .nocredit{
+    width: 832px;
+    height: 20px;
+
+}
+
+.action .nocredit text{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px){
+    .herosection-bg{
+    width: 1000px;
+    height: 532px;
+    align-items: center;
+    justify-content: center;
+       
+}
+
+.herosection{
+    width: 827px;
+    height: 604px;
+    top: -36px;
+    padding: 32px 80px 32px 30px;
+    gap: 8px;
+    text-align: center;
+}
+
+.container{
+    width: 980px;
+    height: 444px;
+    padding: 0px 32px 0px 32px;
+    gap: 8px;
+}
+
+.container-row{
+    width: 1,016px;
+    height: 444px;
+    gap: 8px;
+}
+
+.content{
+    width: 832px;
+    height: 444px;
+    gap: 32px;
+    background-image: url(/public/images/Mesh.png);
+}
+
+.content  .content1{
+    width: 832px;
+    height: 324px;
+    gap: 16px;
+}
+
+.content1 .subheading{
+    width: 832px;
+    height: 20px;
+}
+
+.content1 .subheading text{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #582066;
+}
+
+.content1 .content1heading{
+    width: 832px;
+    height: 288px;
+    gap: 16px;
+}
+
+.content1 .content1heading .title{
+    width: 832px;
+    height: 216px;
+
+}
+
+.content1heading .title text{
+    font-family: 'Manrope';
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.content1 .content1heading .paratext{
+    width: 848px;
+    height: 56px;
+} 
+
+.content1heading .paratext text{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.content .content2{
+    width: 832px;
+    height: 88px;
+    gap: 16px;
+}
+
+.content2 .action{
+    width: 832px;
+    height: 52px;
+    gap: 8px;
+}
+
+.action .base-button1{
+    width: 193px;
+    height: 52px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+    background-color: #582066;
+}
+
+.action .base-button1 .textcard{
+    width: 133px;
+    height: 20px;
+    background-color: #582066;
+}
+
+.action .base-button1 .textcard text{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.base-button1 .arrowright{
+    width: 20px;
+    height: 20px;
+    padding: 4.17px 4.17px 4.17px 4.17px;
+    cursor: pointer;
+}
+
+.base-button1 .arrowright img{
+    width: 11.67px;
+    height: 11.67px;
+    top: 4.17px;
+    left: 4.17px;
+    border: 2px;
+
+}
+
+.action .nocredit{
+    width: 832px;
+    height: 20px;
+
+}
+
+.action .nocredit text{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+}
+
+
+ /* Mobile */
+@media only screen and (max-width: 375px){
+    .herosection-bg{
+    width: 1000px;
+    height: 532px;
+    align-items: center;
+    justify-content: center;
+       
+}
+
+.herosection{
+    width: 900px;
+    height: 604px;
+    top: -36px;
+    padding: 32px 80px 32px 3px;
+    gap: 8px;
+    text-align: center;
+}
+
+.container{
+    width: 980px;
+    height: 444px;
+    padding: 0px 32px 0px 32px;
+    gap: 8px;
+}
+
+.container-row{
+    width: 816px;
+    height: 444px;
+    gap: 8px;
+}
+
+.content{
+    width: 832px;
+    height: 444px;
+    gap: 32px;
+    background-image: url(/public/images/Mesh.png);
+}
+
+.content  .content1{
+    width: 832px;
+    height: 324px;
+    gap: 16px;
+}
+
+.content1 .subheading{
+    width: 832px;
+    height: 20px;
+}
+
+.content1 .subheading text{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #582066;
+}
+
+.content1 .content1heading{
+    width: 832px;
+    height: 288px;
+    gap: 16px;
+}
+
+.content1 .content1heading .title{
+    width: 832px;
+    height: 216px;
+
+}
+
+.content1heading .title text{
+    font-family: 'Manrope';
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.content1 .content1heading .paratext{
+    width: 848px;
+    height: 56px;
+} 
+
+.content1heading .paratext text{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.content .content2{
+    width: 832px;
+    height: 88px;
+    gap: 16px;
+}
+
+.content2 .action{
+    width: 832px;
+    height: 52px;
+    gap: 8px;
+}
+
+.action .base-button1{
+    width: 193px;
+    height: 52px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+    background-color: #582066;
+}
+
+.action .base-button1 .textcard{
+    width: 133px;
+    height: 20px;
+    background-color: #582066;
+}
+
+.action .base-button1 .textcard text{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.base-button1 .arrowright{
+    width: 20px;
+    height: 20px;
+    padding: 4.17px 4.17px 4.17px 4.17px;
+    cursor: pointer;
+}
+
+.base-button1 .arrowright img{
+    width: 11.67px;
+    height: 11.67px;
+    top: 4.17px;
+    left: 4.17px;
+    border: 2px;
+
+}
+
+.action .nocredit{
+    width: 832px;
+    height: 20px;
+
+}
+
+.action .nocredit text{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+}
+

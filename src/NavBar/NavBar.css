@@ -1,0 +1,875 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Manrope:wght@300;400;600&display=swap');
+
+*{
+    margin: auto;
+}
+
+.navbar{
+    width: 840px;
+    height: 80px;
+    padding: 20px 80px 20px 80px;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.navbar-container{
+    display: flex;
+    width: 880px;
+    height: 40px;
+    padding: 0px 32px 0px 32px;
+    gap: 8px;
+}
+
+.navbar-row{
+    display: flex;
+    width: 816px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.navbar-row .navbar-logo{
+    width: 116px;
+    height: 40px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.navbar-logo2{
+    width: 100px;
+    height: 24px;
+    padding: 4px 8px 4px 8px;
+    gap: 8px;
+
+}
+.navbar-logo img{
+    width: 84px;
+    height: 16px;
+}
+
+.navbar-menu{
+    width: 608px;
+    height: 36px;
+    gap: 16px;
+
+}
+
+.navbar-menu-link{
+   width: 139px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+
+}
+
+.navbar-dropdown{
+    width: 93px;
+    height: 20px;
+    gap: 4px;
+
+}
+.dropdown-text{
+    width: 75px;
+height: 20px;
+
+}
+
+.dropdown-text text{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.dropdown-logo img{
+    width: 10px;
+    height: 5px;
+    top: 7.5px;
+    left: 5px;
+    border: 2px;
+}
+
+.navbar-menu .menu-link1{
+    width: 58px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link1 .banking{
+    width: 42px;
+    height: 20px;
+    gap: 8px;
+
+}
+
+.banking text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+
+
+.navbar-menu .menu-link2{
+    width: 71px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link2 .processing{
+    width: 65px;
+    height: 20px;
+    gap: 8px;
+}
+
+.processing text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.navbar-menu .menu-link3{
+    width: 43px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link3 .about{
+    width: 37px;
+    height: 20px;
+    gap: 8px;
+}
+
+.about text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.navbar-menu .menu-link4{
+    width: 49px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link4 .carrier{
+    width: 43px;
+    height: 20px;
+    gap: 8px;
+}
+
+.carrier text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.navbar-menu .menu-link5{
+    width: 68px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link5 .contact{
+    width: 62px;
+    height: 20px;
+    gap: 8px;
+}
+
+.contact text{
+    font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.action text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.navbar-menu .action{
+    width: 103px;
+    height: 36px;
+    gap: 8px;
+}
+
+.action .navbar-base-button{
+    width: 103px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 2px;
+    gap: 8px;
+    background: #EEEFEF;
+}
+
+.navbar-login-text{
+    width: 43px;
+height: 20px;
+
+}
+
+.navbar-login-text text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.navbar-base-button .loginlogo{
+    width: 20px;
+    height: 20px;
+    padding: 2.5px;
+}
+
+.navbar-base-button .loginlogo img{
+    width: 15px;
+    height: 15px;
+    top: 2.5px;
+    left: 2.5px;
+    border: 2px;
+}
+
+.dropdown-icon {
+    display: none;
+}
+
+@media screen and (min-width: 769px) {
+ .navbar-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .navbar-menu .dropdown-icon {
+    display: none;
+ }
+ .navbar-menu .dropdown-icon:first-child {
+    display: block;
+ }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+    .dropdown-icon {
+        display: inline-block;
+        cursor: pointer; 
+    }
+
+    .navbar-menu {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .navbar-menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-menu li {
+        margin-bottom: 8px;
+    }
+
+    .navbar-menu-link,
+    .menu-link1,
+    .menu-link2,
+    .menu-link3,
+    .menu-link4,
+    .menu-link5 {
+        width: 100%;
+    }
+
+    .navbar{
+    width: 840px;
+    height: 80px;
+    padding: 20px 80px 20px 80px;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.navbar-container{
+    display: flex;
+    width: 880px;
+    height: 40px;
+    padding: 0px 32px 0px 32px;
+    gap: 8px;
+}
+
+.navbar-row{
+    display: flex;
+    width: 816px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.navbar-row .navbar-logo{
+    width: 116px;
+    height: 40px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.navbar-logo2{
+    width: 100px;
+    height: 24px;
+    padding: 4px 8px 4px 8px;
+    gap: 8px;
+
+}
+.navbar-logo img{
+    width: 84px;
+    height: 16px;
+}
+
+.navbar-menu{
+    width: 608px;
+    height: 36px;
+    gap: 16px;
+
+}
+
+.navbar-menu-link{
+   width: 139px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+
+}
+
+.navbar-dropdown{
+    width: 93px;
+    height: 20px;
+    gap: 4px;
+
+}
+.dropdown-text{
+    width: 75px;
+height: 20px;
+
+}
+
+.dropdown-text text{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.dropdown-logo img{
+    width: 10px;
+    height: 5px;
+    top: 7.5px;
+    left: 5px;
+    border: 2px;
+}
+
+.navbar-menu .menu-link1{
+    width: 58px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link1 .banking{
+    width: 42px;
+    height: 20px;
+    gap: 8px;
+
+}
+
+.banking text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+
+
+.navbar-menu .menu-link2{
+    width: 71px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link2 .processing{
+    width: 65px;
+    height: 20px;
+    gap: 8px;
+}
+
+.processing text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.navbar-menu .menu-link3{
+    width: 43px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link3 .about{
+    width: 37px;
+    height: 20px;
+    gap: 8px;
+}
+
+.about text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.navbar-menu .menu-link4{
+    width: 49px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link4 .carrier{
+    width: 43px;
+    height: 20px;
+    gap: 8px;
+}
+
+.carrier text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.navbar-menu .menu-link5{
+    width: 68px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link5 .contact{
+    width: 62px;
+    height: 20px;
+    gap: 8px;
+}
+
+.contact text{
+    font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.action text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.navbar-menu .action{
+    width: 103px;
+    height: 36px;
+    gap: 8px;
+}
+
+.action .navbar-base-button{
+    width: 103px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 2px;
+    gap: 8px;
+    background: #EEEFEF;
+}
+
+.navbar-login-text{
+    width: 43px;
+height: 20px;
+
+}
+
+.navbar-login-text text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.navbar-base-button .loginlogo{
+    width: 20px;
+    height: 20px;
+    padding: 2.5px;
+}
+
+.navbar-base-button .loginlogo img{
+    width: 15px;
+    height: 15px;
+    top: 2.5px;
+    left: 2.5px;
+    border: 2px;
+}
+ 
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 375px) {
+    .dropdown-icon {
+        display: inline-block;
+        cursor: pointer; 
+    }
+
+    .navbar-menu {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .navbar-menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-menu li {
+        margin-bottom: 8px;
+    }
+
+    .navbar-menu-link,
+    .menu-link1,
+    .menu-link2,
+    .menu-link3,
+    .menu-link4,
+    .menu-link5 {
+        width: 100%;
+    }
+
+    .navbar{
+    width: 840px;
+    height: 80px;
+    padding: 20px 80px 20px 80px;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.navbar-container{
+    display: flex;
+    width: 880px;
+    height: 40px;
+    padding: 0px 32px 0px 32px;
+    gap: 8px;
+}
+
+.navbar-row{
+    display: flex;
+    width: 816px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.navbar-row .navbar-logo{
+    width: 116px;
+    height: 40px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.navbar-logo2{
+    width: 100px;
+    height: 24px;
+    padding: 4px 8px 4px 8px;
+    gap: 8px;
+
+}
+.navbar-logo img{
+    width: 84px;
+    height: 16px;
+}
+
+.navbar-menu{
+    width: 608px;
+    height: 36px;
+    gap: 16px;
+
+}
+
+.navbar-menu-link{
+   width: 139px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+
+}
+
+.navbar-dropdown{
+    width: 93px;
+    height: 20px;
+    gap: 4px;
+
+}
+.dropdown-text{
+    width: 75px;
+height: 20px;
+
+}
+
+.dropdown-text text{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.dropdown-logo img{
+    width: 10px;
+    height: 5px;
+    top: 7.5px;
+    left: 5px;
+    border: 2px;
+}
+
+.navbar-menu .menu-link1{
+    width: 58px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link1 .banking{
+    width: 42px;
+    height: 20px;
+    gap: 8px;
+
+}
+
+.banking text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+
+
+.navbar-menu .menu-link2{
+    width: 71px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link2 .processing{
+    width: 65px;
+    height: 20px;
+    gap: 8px;
+}
+
+.processing text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.navbar-menu .menu-link3{
+    width: 43px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link3 .about{
+    width: 37px;
+    height: 20px;
+    gap: 8px;
+}
+
+.about text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.navbar-menu .menu-link4{
+    width: 49px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link4 .carrier{
+    width: 43px;
+    height: 20px;
+    gap: 8px;
+}
+
+.carrier text{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.navbar-menu .menu-link5{
+    width: 68px;
+    height: 36px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.menu-link5 .contact{
+    width: 62px;
+    height: 20px;
+    gap: 8px;
+}
+
+.contact text{
+    font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.action text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.navbar-menu .action{
+    width: 103px;
+    height: 36px;
+    gap: 8px;
+}
+
+.action .navbar-base-button{
+    width: 103px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 2px;
+    gap: 8px;
+    background: #EEEFEF;
+}
+
+.navbar-login-text{
+    width: 43px;
+height: 20px;
+
+}
+
+.navbar-login-text text{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.navbar-base-button .loginlogo{
+    width: 20px;
+    height: 20px;
+    padding: 2.5px;
+}
+
+.navbar-base-button .loginlogo img{
+    width: 15px;
+    height: 15px;
+    top: 2.5px;
+    left: 2.5px;
+    border: 2px;
+}
+ 
+}
